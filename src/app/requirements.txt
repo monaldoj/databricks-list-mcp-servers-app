@@ -1,0 +1,5 @@
+databricks-sdk
+dash
+dash-mantine-components
+dash-iconify
+databricks-mcp

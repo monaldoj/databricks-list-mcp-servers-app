@@ -1,0 +1,82 @@
+# ----------------------------
+# OS files
+# ----------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+Thumbs.db
+
+# ----------------------------
+# Editor / IDE
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ----------------------------
+# Python bytecode and caches
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.ipynb_checkpoints/
+
+# ----------------------------
+# Python build / test artifacts
+# ----------------------------
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+site/
+.eggs/
+*.egg
+*.egg-info/
+pip-wheel-metadata/
+.tox/
+.nox/
+
+# ----------------------------
+# Virtual environments
+# ----------------------------
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ----------------------------
+# Logs / local temp
+# ----------------------------
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# ----------------------------
+# Environment / secrets
+# ----------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# ----------------------------
+# Databricks local artifacts
+# Keep the nested ignore file only.
+# ----------------------------
+.databricks/*
+!.databricks/.gitignore

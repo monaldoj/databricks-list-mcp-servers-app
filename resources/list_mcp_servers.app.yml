@@ -1,0 +1,6 @@
+resources:
+  apps:
+    list_mcp_servers:
+      name: list-mcp-servers-${bundle.target}
+      description: "Workspace MCP Registry — discover and browse Custom MCP Servers and their tools."
+      source_code_path: ../src/app
