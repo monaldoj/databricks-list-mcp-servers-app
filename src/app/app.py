@@ -219,8 +219,8 @@ def _discover_managed_uc_function_servers() -> tuple[list[ServerInfo], str | Non
     w = WorkspaceClient()
     host = (w.config.host or "").rstrip("/")
     per_type_cap = int(os.getenv("MCP_PER_TYPE_SCAN_LIMIT", "100"))
-    max_schemas = int(os.getenv("MCP_FUNCTION_SCHEMA_SCAN_LIMIT", "2000"))
-    max_functions_per_schema = int(os.getenv("MCP_FUNCTIONS_PER_SCHEMA_LIMIT", "200"))
+    max_schemas = int(os.getenv("MCP_FUNCTION_SCHEMA_SCAN_LIMIT", "100"))
+    max_functions_per_schema = int(os.getenv("MCP_FUNCTIONS_PER_SCHEMA_LIMIT", "100"))
     cap_hit = False
     scanned = 0
     warnings: list[str] = []

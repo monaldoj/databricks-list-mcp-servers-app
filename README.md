@@ -47,8 +47,8 @@ A Dash app for Databricks that helps you discover and inspect MCP servers across
 To keep scans responsive, per-section discovery is capped by environment variables:
 
 - `MCP_PER_TYPE_SCAN_LIMIT` (default: `100`)
-- `MCP_FUNCTION_SCHEMA_SCAN_LIMIT` (default: `2000`)
-- `MCP_FUNCTIONS_PER_SCHEMA_LIMIT` (default: `200`)
+- `MCP_FUNCTION_SCHEMA_SCAN_LIMIT` (default: `100`)
+- `MCP_FUNCTIONS_PER_SCHEMA_LIMIT` (default: `100`)
 
 When a cap is hit, the UI shows:
 
