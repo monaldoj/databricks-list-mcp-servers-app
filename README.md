@@ -1,4 +1,4 @@
-# MCP Explorer App
+# List MCP Servers App
 
 A Dash app for Databricks that helps you discover and inspect MCP servers across:
 
